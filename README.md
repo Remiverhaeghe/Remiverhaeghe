@@ -40,24 +40,11 @@ Collecte et analyse d'offres d'emploi publiques, avec une architecture découpé
 
 `Python` `FastAPI` `Flutter` `SQLite` `pandas` `pytest`
 
-### [portfolio-vue](https://github.com/Remiverhaeghe/portfolio-vue)
+### [portefolio-vue](https://github.com/Remiverhaeghe/portefolio-vue)
 
-Portfolio présentant mon parcours et mes projets.
+Portfolio présentant mon parcours et mes projets, publié sur [GitHub Pages](https://remiverhaeghe.github.io/portefolio-vue/).
 
-`Vue.js 3` `Vite` `Tailwind CSS`
-
-### [gestion-inventaire-java](https://github.com/Remiverhaeghe/gestion-inventaire-java)
-
-Application de gestion d'inventaire, mise en pratique de la programmation orientée objet
-et de la conception d'interfaces.
-
-`Java`
-
-### [blog-dynamique-php](https://github.com/Remiverhaeghe/blog-dynamique-php)
-
-Blog avec gestion des utilisateurs, espace membre et attention portée à la sécurité.
-
-`PHP` `MySQL`
+`Vue.js 3` `Vite` `Vitest` `GitHub Actions`
 
 ## En ce moment
 
