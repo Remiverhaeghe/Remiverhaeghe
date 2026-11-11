@@ -9,9 +9,12 @@ Vue.js) pour avoir une vision complète du développement, du back-end à l'inte
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
+![Symfony](https://img.shields.io/badge/Symfony-000000?style=flat&logo=symfony&logoColor=white)
 ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vuedotjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 
@@ -19,14 +22,27 @@ Vue.js) pour avoir une vision complète du développement, du back-end à l'inte
 
 | Domaine | Technologies |
 |---|---|
-| Back-end | Python, FastAPI, Java, PHP |
+| Back-end | Python, FastAPI, Java, PHP, Symfony |
 | Front-end | HTML, CSS, JavaScript, Vue.js 3, Jinja2, HTMX |
 | Mobile | Flutter / Dart |
-| Données | SQL, MySQL, SQLite, pandas |
-| Qualité | pytest, Playwright, pylint, Black, bandit, CI GitHub Actions |
+| Données | SQL, PostgreSQL, MySQL, SQLite, pandas |
+| Qualité | PHPUnit, Infection, PHPStan, pytest, Playwright, pylint, Black, bandit, CI GitHub Actions |
 | Outils | Git, GitHub, VS Code, Docker |
 
 ## Projets
+
+### [nas-monitor](https://github.com/Remiverhaeghe/nas-monitor)
+
+Supervision d'un NAS auto-hébergé : les sauvegardes et tâches planifiées signalent leur
+exécution, l'application contrôle aussi des sites, ports, certificats TLS, DNS et pings, et
+envoie une alerte par e-mail ou ntfy quand quelque chose manque.
+
+- Page de statut publique, courbes de tendance, API à jeton pour une application mobile
+- Double authentification TOTP, jetons hachés, journal des actions, recherche de secrets en CI
+- Plus de 190 tests (unitaires, fonctionnels, navigateur), 99 % de couverture, tests de mutation
+- Symfony 8, PostgreSQL, FrankenPHP, Docker
+
+`PHP 8.5` `Symfony` `PostgreSQL` `Docker` `PHPUnit` `Infection`
 
 ### [scraper-data-python](https://github.com/Remiverhaeghe/scraper-data-python)
 
@@ -39,6 +55,13 @@ Collecte et analyse d'offres d'emploi publiques, avec une architecture découpé
 - Tests pytest et Playwright, CI avec analyse statique, audit de sécurité et des dépendances
 
 `Python` `FastAPI` `Flutter` `SQLite` `pandas` `pytest`
+
+### [kalkul](https://github.com/Remiverhaeghe/kalkul)
+
+Calculatrice de bureau en Java : calcul scientifique, financier et graphique (tracé de
+fonctions, dérivée, intégrale), matrices, systèmes, régression et tests statistiques.
+
+`Java` `Maven` `JUnit`
 
 ### [portefolio-vue](https://github.com/Remiverhaeghe/portefolio-vue)
 
