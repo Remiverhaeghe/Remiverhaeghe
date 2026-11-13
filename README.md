@@ -39,7 +39,7 @@ envoie une alerte par e-mail ou ntfy quand quelque chose manque.
 
 - Page de statut publique, courbes de tendance, API à jeton pour une application mobile
 - Double authentification TOTP, jetons hachés, journal des actions, recherche de secrets en CI
-- Plus de 190 tests (unitaires, fonctionnels, navigateur), 99 % de couverture, tests de mutation
+- Plus de 270 tests (unitaires, fonctionnels, navigateur), 99 % de couverture, tests de mutation (96 %)
 - Symfony 8, PostgreSQL, FrankenPHP, Docker
 
 `PHP 8.5` `Symfony` `PostgreSQL` `Docker` `PHPUnit` `Infection`
@@ -55,6 +55,18 @@ Collecte et analyse d'offres d'emploi publiques, avec une architecture découpé
 - Tests pytest et Playwright, CI avec analyse statique, audit de sécurité et des dépendances
 
 `Python` `FastAPI` `Flutter` `SQLite` `pandas` `pytest`
+
+### [secrets-audit](https://github.com/Remiverhaeghe/secrets-audit)
+
+Audit d'hygiène des secrets dans les dépôts git d'un dossier : fichiers sensibles suivis ou
+restés dans l'historique, clés privées, jetons et mots de passe en clair. Il n'affiche jamais
+une valeur en entier.
+
+- Python sans dépendance externe, rapport texte ou JSON, code de sortie utilisable en CI
+- Règles qui limitent les faux positifs (valeurs d'exemple, code, chemins de test)
+- 47 tests sur de vrais dépôts git temporaires, 100 % de couverture, CI avec black, pylint et bandit
+
+`Python` `Git` `unittest`
 
 ### [kalkul](https://github.com/Remiverhaeghe/kalkul)
 
@@ -76,4 +88,4 @@ Portfolio présentant mon parcours et mes projets, publié sur [GitHub Pages](ht
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/TON-IDENTIFIANT) · [Email](mailto:TON-EMAIL)
+[LinkedIn](https://www.linkedin.com/in/remi-verhaeghe-99a532121) · [Email](mailto:remi.v_59@hotmail.fr)
