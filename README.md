@@ -31,6 +31,18 @@ Vue.js) pour avoir une vision complète du développement, du back-end à l'inte
 
 ## Projets
 
+### [scraper-data-python](https://github.com/Remiverhaeghe/scraper-data-python)
+
+Collecte et analyse d'offres d'emploi publiques, avec une architecture découpée en couches
+(HTTP, parsing, extraction, métier, stockage).
+
+- Tableau de bord web FastAPI (Jinja2, HTMX) et interface de bureau PySide6
+- Application mobile Flutter compagnon, hors ligne d'abord, synchronisée via une API à jeton
+- Stockage SQLite, analyse avec pandas
+- Tests pytest et Playwright, CI avec analyse statique, audit de sécurité et des dépendances
+
+`Python` `FastAPI` `Flutter` `SQLite` `pandas` `pytest`
+
 ### [nas-monitor](https://github.com/Remiverhaeghe/nas-monitor)
 
 Supervision d'un NAS auto-hébergé : les sauvegardes et tâches planifiées signalent leur
@@ -43,18 +55,6 @@ envoie une alerte par e-mail ou ntfy quand quelque chose manque.
 - Symfony 8, PostgreSQL, FrankenPHP, Docker
 
 `PHP 8.5` `Symfony` `PostgreSQL` `Docker` `PHPUnit` `Infection`
-
-### [scraper-data-python](https://github.com/Remiverhaeghe/scraper-data-python)
-
-Collecte et analyse d'offres d'emploi publiques, avec une architecture découpée en couches
-(HTTP, parsing, extraction, métier, stockage).
-
-- Tableau de bord web FastAPI (Jinja2, HTMX) et interface de bureau PySide6
-- Application mobile Flutter compagnon, hors ligne d'abord, synchronisée via une API à jeton
-- Stockage SQLite, analyse avec pandas
-- Tests pytest et Playwright, CI avec analyse statique, audit de sécurité et des dépendances
-
-`Python` `FastAPI` `Flutter` `SQLite` `pandas` `pytest`
 
 ### [secrets-audit](https://github.com/Remiverhaeghe/secrets-audit)
 
@@ -88,4 +88,4 @@ Portfolio présentant mon parcours et mes projets, publié sur [GitHub Pages](ht
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/remi-verhaeghe-99a532121) · [Email](mailto:remi.v_59@hotmail.fr)
+[LinkedIn](https://www.linkedin.com/in/remi-verhaeghe-99a532121) · [Email](mailto:remi.verhaeghe59@gmail.com)
