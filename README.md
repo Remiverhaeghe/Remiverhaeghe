@@ -64,7 +64,7 @@ données fictives.
 
 - Référentiels de formation, promotions, évaluations datées de 0 à 4, progression par bloc et par compétence
 - Accès contrôlé par voters (un test par couple profil et donnée), double authentification TOTP, CSP avec nonce
-- 260 tests, 96 % de couverture, tests de mutation (99 %)
+- 261 tests, 96 % de couverture, tests de mutation (99 %)
 - Symfony 8, PostgreSQL, FrankenPHP, Docker
 
 `PHP 8.5` `Symfony` `PostgreSQL` `Docker` `PHPUnit` `Infection`
