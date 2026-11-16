@@ -69,6 +69,18 @@ données fictives.
 
 `PHP 8.5` `Symfony` `PostgreSQL` `Docker` `PHPUnit` `Infection`
 
+### [atelier](https://github.com/Remiverhaeghe/atelier)
+
+Application Android pour préparer ses travaux sans erreur : chaque pièce est saisie mur par
+mur, l'application en tire le plan, les coupes, les quantités, le budget et la liste de
+courses. Elle n'a pas la permission Internet, tout reste sur le téléphone.
+
+- Parquet rangée par rangée, plinthes optimisées par barre, peinture, carrelage, placo, électricité, plomberie
+- Règles de calcul en Dart pur, couvertes à plus de 95 % en CI
+- Plus de 400 tests, parcours sur émulateur Android, captures générées sur un chantier fictif, APK signées
+
+`Flutter` `Dart` `GitHub Actions`
+
 ### [secrets-audit](https://github.com/Remiverhaeghe/secrets-audit)
 
 Audit d'hygiène des secrets dans les dépôts git d'un dossier : fichiers sensibles suivis ou
