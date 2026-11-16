@@ -51,7 +51,20 @@ envoie une alerte par e-mail ou ntfy quand quelque chose manque.
 
 - Page de statut publique, courbes de tendance, API à jeton pour une application mobile
 - Double authentification TOTP, jetons hachés, journal des actions, recherche de secrets en CI
-- Plus de 270 tests (unitaires, fonctionnels, navigateur), 99 % de couverture, tests de mutation (96 %)
+- 285 tests (unitaires, fonctionnels, navigateur), 99 % de couverture, tests de mutation (98 %)
+- Symfony 8, PostgreSQL, FrankenPHP, Docker
+
+`PHP 8.5` `Symfony` `PostgreSQL` `Docker` `PHPUnit` `Infection`
+
+### [cursus](https://github.com/Remiverhaeghe/cursus)
+
+Suivi des compétences d'apprentis, partagé entre l'école, l'entreprise d'accueil et l'apprenti.
+Réécriture personnelle, de zéro, d'un projet d'équipe de formation. La démo n'utilise que des
+données fictives.
+
+- Référentiels de formation, promotions, évaluations datées de 0 à 4, progression par bloc et par compétence
+- Accès contrôlé par voters (un test par couple profil et donnée), double authentification TOTP, CSP avec nonce
+- 260 tests, 96 % de couverture, tests de mutation (99 %)
 - Symfony 8, PostgreSQL, FrankenPHP, Docker
 
 `PHP 8.5` `Symfony` `PostgreSQL` `Docker` `PHPUnit` `Infection`
