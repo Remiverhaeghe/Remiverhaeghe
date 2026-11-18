@@ -31,12 +31,14 @@ Vue.js) pour avoir une vision complète du développement, du back-end à l'inte
 
 ## Projets
 
-### [scraper-data-python](https://github.com/Remiverhaeghe/scraper-data-python)
+### [tremplin](https://github.com/Remiverhaeghe/tremplin)
 
-Collecte et analyse d'offres d'emploi publiques, avec une architecture découpée en couches
-(HTTP, parsing, extraction, métier, stockage).
+Tableau de bord de recherche d'emploi : collecte d'offres publiques, suivi des candidatures et
+des relances, préparation des entretiens. Architecture découpée en couches (HTTP, parsing,
+extraction, métier, stockage).
 
 - Tableau de bord web FastAPI (Jinja2, HTMX) et interface de bureau PySide6
+- Relances groupées un jour de la semaine, récapitulatif mensuel des démarches à imprimer pour France Travail
 - Application mobile Flutter compagnon, hors ligne d'abord, synchronisée via une API à jeton
 - Stockage SQLite, analyse avec pandas
 - Tests pytest et Playwright, CI avec analyse statique, audit de sécurité et des dépendances
@@ -76,6 +78,8 @@ mur, l'application en tire le plan, les coupes, les quantités, le budget et la 
 courses. Elle n'a pas la permission Internet, tout reste sur le téléphone.
 
 - Parquet rangée par rangée, plinthes optimisées par barre, peinture, carrelage, placo, électricité, plomberie
+- Petites structures bois (étagères, mezzanine, pergola, escaliers) prédimensionnées d'après l'Eurocode 5
+- Sauvegarde chiffrée en AES-256-GCM, mot de passe dérivé par PBKDF2
 - Règles de calcul en Dart pur, couvertes à plus de 95 % en CI
 - Plus de 400 tests, parcours sur émulateur Android, captures générées sur un chantier fictif, APK signées
 
@@ -97,6 +101,10 @@ une valeur en entier.
 
 Calculatrice de bureau en Java : calcul scientifique, financier et graphique (tracé de
 fonctions, dérivée, intégrale), matrices, systèmes, régression et tests statistiques.
+
+- Onglets Programmeur (bases 2 à 16, opérations bit à bit) et Chantier (béton, pente, revêtement)
+- Historique des calculs, formules enregistrées et réutilisées d'un onglet à l'autre
+- Habillage Swing fait main, thème clair ou sombre selon Windows
 
 `Java` `Maven` `JUnit`
 
