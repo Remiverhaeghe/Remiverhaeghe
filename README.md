@@ -85,6 +85,11 @@ courses. Elle n'a pas la permission Internet, tout reste sur le téléphone.
 
 `Flutter` `Dart` `GitHub Actions`
 
+Habillée comme un carnet de chantier : croquis cotés et schémas en relief dessinés par le code.
+Captures faites par la CI sur un chantier fictif, à voir aussi dans la [section Croquis du portfolio](https://remiverhaeghe.github.io/portefolio-vue/#croquis).
+
+<p><img src="https://raw.githubusercontent.com/Remiverhaeghe/atelier/main/docs/captures/15-rampants.png" alt="Pièce sous rampants" width="160"> <img src="https://raw.githubusercontent.com/Remiverhaeghe/atelier/main/docs/captures/16-fenetre-bois.png" alt="Fenêtre bois sur mesure" width="160"> <img src="https://raw.githubusercontent.com/Remiverhaeghe/atelier/main/docs/captures/23-placard-rampant.png" alt="Placard sous rampant" width="160"> <img src="https://raw.githubusercontent.com/Remiverhaeghe/atelier/main/docs/captures/24-geste-scier.png" alt="Geste : scier droit" width="160"></p>
+
 ### [secrets-audit](https://github.com/Remiverhaeghe/secrets-audit)
 
 Audit d'hygiène des secrets dans les dépôts git d'un dossier : fichiers sensibles suivis ou
