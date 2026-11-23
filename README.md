@@ -137,7 +137,9 @@ fonctions, dérivée, intégrale), matrices, systèmes, régression et tests sta
 - Onglets Programmeur (bases 2 à 16, opérations bit à bit) et Chantier (béton, pente, revêtement)
 - Historique des calculs cherchable et exportable en CSV, formules enregistrées et réutilisées d'un onglet à l'autre
 - Devises hors ligne : taux tapés ou importés du fichier de la BCE, toujours datés
-- Habillage Swing fait main, thème clair ou sombre selon Windows
+- Habillage Swing dessiné à la main, façon calculatrice de bureau des années 70 : touches rondes en relief, écran à cristaux liquides aux chiffres en sept segments, thème clair ou sombre selon Windows
+
+<p><img src="https://raw.githubusercontent.com/Remiverhaeghe/kalkul/main/docs/calculatrice.png" alt="Onglet Base : touches rondes et écran à sept segments" width="200"> <img src="https://raw.githubusercontent.com/Remiverhaeghe/kalkul/main/docs/scientifique.png" alt="Onglet Scientifique" width="200"> <img src="https://raw.githubusercontent.com/Remiverhaeghe/kalkul/main/docs/theme-clair.png" alt="Thème clair" width="200"></p>
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat&logo=apachemaven&logoColor=white)
