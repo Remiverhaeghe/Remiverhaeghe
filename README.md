@@ -66,6 +66,8 @@ envoie une alerte par e-mail ou ntfy quand quelque chose manque.
 - 285 tests (unitaires, fonctionnels, navigateur), 99 % de couverture, tests de mutation (98 %)
 - Symfony 8, PostgreSQL, FrankenPHP, Docker
 
+<p><img src="https://raw.githubusercontent.com/Remiverhaeghe/nas-monitor/main/docs/images/tableau-de-bord.png" alt="Tableau de bord des moniteurs, sur des données fictives" width="270"> <img src="https://raw.githubusercontent.com/Remiverhaeghe/nas-monitor/main/docs/images/moniteur.png" alt="Page d'un moniteur avec ses courbes de tendance" width="270"> <img src="https://raw.githubusercontent.com/Remiverhaeghe/nas-monitor/main/docs/images/statut-public.png" alt="Page de statut publique" width="270"></p>
+
 ![PHP 8.5](https://img.shields.io/badge/PHP_8.5-777BB4?style=flat&logo=php&logoColor=white)
 ![Symfony](https://img.shields.io/badge/Symfony-000000?style=flat&logo=symfony&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
