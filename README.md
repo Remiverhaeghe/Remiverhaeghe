@@ -65,6 +65,9 @@ envoie une alerte par e-mail ou ntfy quand quelque chose manque.
 - Double authentification TOTP, jetons hachés, journal des actions, recherche de secrets en CI
 - 285 tests (unitaires, fonctionnels, navigateur), 99 % de couverture, tests de mutation (98 %)
 - Symfony 8, PostgreSQL, FrankenPHP, Docker
+- Visuel propre, celui d'un livret d'apprentissage : papier craie, encre verte, niveaux en tampons
+
+<p><img src="https://raw.githubusercontent.com/Remiverhaeghe/cursus/main/docs/captures/cursus-02-progression.png" alt="Progression d'un apprenti par bloc et par compétence" width="270"> <img src="https://raw.githubusercontent.com/Remiverhaeghe/cursus/main/docs/captures/cursus-07-ecole.png" alt="Tableau de bord de l'école" width="270"> <img src="https://raw.githubusercontent.com/Remiverhaeghe/cursus/main/docs/captures/cursus-04-echanges.png" alt="Échanges entre tuteur et apprenti sur les compétences" width="270"></p>
 
 ![PHP 8.5](https://img.shields.io/badge/PHP_8.5-777BB4?style=flat&logo=php&logoColor=white)
 ![Symfony](https://img.shields.io/badge/Symfony-000000?style=flat&logo=symfony&logoColor=white)
