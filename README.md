@@ -128,6 +128,8 @@ une valeur en entier.
 - Règles qui limitent les faux positifs (valeurs d'exemple, code, chemins de test)
 - 47 tests sur de vrais dépôts git temporaires, 100 % de couverture, CI avec black, pylint et bandit
 
+<p><img src="https://raw.githubusercontent.com/Remiverhaeghe/secrets-audit/main/docs/images/rapport.png" alt="Rapport de secrets-audit sur un dépôt fictif, valeurs masquées" width="560"></p>
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![unittest](https://img.shields.io/badge/unittest-3776AB?style=flat&logo=python&logoColor=white)
